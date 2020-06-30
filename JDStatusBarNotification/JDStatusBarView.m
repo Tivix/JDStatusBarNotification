@@ -71,6 +71,9 @@
       case JDStatusBarHeightForIPhoneXFullNavBar:
         break;
     }
+  } else {
+      labelY += 10;
+      height -= 10;
   }
 
   self.textLabel.frame = CGRectMake(0, labelY, self.bounds.size.width, height);
