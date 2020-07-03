@@ -516,7 +516,7 @@ static CGFloat topBarHeightAdjustedForIphoneX(JDStatusBarStyle *style, CGFloat h
         return height + 8.0;
     }
   } else {
-    return height + 15;
+      return height + 8.0;
   }
 }
 
